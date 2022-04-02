@@ -2,6 +2,17 @@ body {
     color: #fff;
 }
 
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
@@ -42,6 +53,7 @@ body {
 #hud {
     display: flex;
     justify-content: space-between;
+    margin-top: 20rem;
 }
 
 .hud-prefix {
@@ -68,9 +80,12 @@ body {
     width: 0%;
 }
 
-
+/* On screens that are 768 or less */
 @media screen and (max-width: 768px) {
     .choice-container {
-        min-width: 40rem;
+        min-width: 20rem;
     }
 } 
+
+
+/* On screens that are 768 or less */
