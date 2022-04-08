@@ -15,7 +15,7 @@ let availableQuestions = []
 // questions in game
 let questions = [
     {
-        question: "what is 2 + 27?",
+        question: "assets/images/logo1.PNG",
         choice1: "2",
         choice2: "29",
         choice3: "21",
@@ -23,7 +23,7 @@ let questions = [
         answer: 2,
     },
     {
-        question: "The tallest building in the world is located in which city?",
+        question: "assets/images/logo1.PNG",
         choice1: "Dubai",
         choice2: "New York",
         choice3: "Shanhai",
@@ -32,7 +32,7 @@ let questions = [
     },
 
     {
-        question: "What is the capital of Iceland?",
+        question: "assets/images/logo1.PNG",
         choice1: "Hafnarfjordur",
         choice2: "Helgafell",
         choice3: "Nuuk",
@@ -40,7 +40,7 @@ let questions = [
         answer: 4,
     },
     {
-        question: "Which planet is closest to the sun?",
+        question: "assets/images/logo1.PNG",
         choice1: "Venus",
         choice2: "Mercury",
         choice3: "Jupiter",
@@ -83,7 +83,7 @@ getNewQuestion = () => {
 
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionsIndex]
-    question.innerText = currentQuestion.question
+    question.src = currentQuestion.question
 
     // Update the answers to show the user after last question is answered
     choices.forEach(choice => {
