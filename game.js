@@ -16,14 +16,14 @@ let availableQuestions = []
 let questions = [
     {
         question: "assets/images/logo1.PNG",
-        choice1: "2",
-        choice2: "29",
-        choice3: "21",
-        choice4: "17",
+        choice1: "BP",
+        choice2: "Shell",
+        choice3: "Texaco",
+        choice4: "Gampom",
         answer: 2,
     },
     {
-        question: "assets/images/logo1.PNG",
+        question: "assets/images/logo2.PNG",
         choice1: "Dubai",
         choice2: "New York",
         choice3: "Shanhai",
@@ -32,7 +32,7 @@ let questions = [
     },
 
     {
-        question: "assets/images/logo1.PNG",
+        question: "assets/images/logo3.PNG",
         choice1: "Hafnarfjordur",
         choice2: "Helgafell",
         choice3: "Nuuk",
@@ -40,7 +40,7 @@ let questions = [
         answer: 4,
     },
     {
-        question: "assets/images/logo1.PNG",
+        question: "assets/images/logo4.PNG",
         choice1: "Venus",
         choice2: "Mercury",
         choice3: "Jupiter",
